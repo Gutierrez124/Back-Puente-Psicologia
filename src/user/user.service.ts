@@ -2,7 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { User } from './user.entity'; // Si el servicio está en src/services
-import { TypeUser } from '../../src/type_user/entities/type_user.entity';
+import { TypeUser } from '../type_user/entities/type_user.entity';
 import { CreateUserDto } from './dto/create-user.dto';
 import * as bcrypt from 'bcryptjs';
 
