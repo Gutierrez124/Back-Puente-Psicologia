@@ -1,4 +1,3 @@
-import { TypeUser } from 'type_user/entities/type_user.entity';
 import { Column, Entity, PrimaryGeneratedColumn, ManyToOne } from 'typeorm';
 import { User } from '../../user/user.entity';
 
